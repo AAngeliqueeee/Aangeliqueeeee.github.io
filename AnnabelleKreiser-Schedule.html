@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Babysitting Schedule</title>
+    <style>
+        /* Requirement: Modify the table itself */
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            font-family: sans-serif;
+            background-color: #f9f9f9;
+        }
+
+        /* Requirement: Modify table headers */
+        th {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            font-size: 1.2em;
+        }
+
+        /* Requirement: Modify all table cells */
+        td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        /* Requirement: Modify at least one row (using a class) */
+        .nap-time {
+            background-color: #e3f2fd;
+            font-style: italic;
+        }
+
+        /* Requirement: Modify at least one column (using an ID) */
+        #time-column {
+            width: 150px;
+            font-weight: bold;
+            color: #2e7d32;
+        }
+    </style>
+</head>
+<body>
+
+    <h2 style="text-align:center;">Daily Sibling Schedule</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Activity</th>
+                <th>Notes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="time-column">8:00 AM</td>
+                <td>Wake Up</td>
+                <td>Get 4yr old dressed; 11yr old makes bed.</td>
+            </tr>
+            <tr>
+                <td id="time-column">8:30 AM</td>
+                <td>Breakfast</td>
+                <td>Pancakes and fruit for everyone.</td>
+            </tr>
+            <tr>
+                <td id="time-column">10:00 AM</td>
+                <td>Park Trip</td>
+                <td>4yr old on swings; 11yr old brings a soccer ball.</td>
+            </tr>
+            <tr>
+                <td id="time-column">12:00 PM</td>
+                <td>Lunch</td>
+                <td>Grilled cheese sandwiches.</td>
+            </tr>
+            <tr class="nap-time"> <td id="time-column">1:00 PM</td>
+                <td>Quiet Time</td>
+                <td>4yr old takes a nap; 11yr old reads or does homework.</td>
+            </tr>
+            <tr>
+                <td id="time-column">3:00 PM</td>
+                <td>Snack & Craft</td>
+                <td>Play-do at the kitchen table.</td>
+            </tr>
+            <tr>
+                <td id="time-column">5:00 PM</td>
+                <td>Chore Time</td>
+                <td>Pick up toys and clear the table.</td>
+            </tr>
+            <tr>
+                <td id="time-column">6:30 PM</td>
+                <td>Dinner</td>
+                <td>Pasta night before parents get home!</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
