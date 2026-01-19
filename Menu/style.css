@@ -1,0 +1,39 @@
+/* Shared rules for all three menus */
+.menu {
+    /* DIMENSIONS: Requirement #1 */
+    width: 400px;
+    height: 550px;
+
+    /* MARGIN: Space outside the box to separate the menus */
+    margin: 40px auto; 
+
+    /* BORDER: A visible frame around the menu */
+    border: 10px solid #4a4a4a;
+
+    /* PADDING: Space inside the box so text doesn't hit the border */
+    padding: 30px;
+    
+    /* Text styling to make it look like a real menu */
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Unique Backgrounds: Requirement #2 and #3 */
+.breakfast {
+    background-image: url('breakfast.jpg');
+    background-position: center; /* Required property */
+    background-size: cover;
+}
+
+.lunch {
+    background-image: url('lunch.jpg');
+    background-repeat: no-repeat; /* Required property */
+    background-size: cover;
+}
+
+.dinner {
+    background-image: url('dinner.jpg');
+    background-position: bottom; /* Required property */
+    background-size: cover;
+}
