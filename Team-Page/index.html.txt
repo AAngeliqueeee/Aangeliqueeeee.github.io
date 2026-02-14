@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sanrio Friendship Club</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Sanrio Friends</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Characters</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Meet the Team</h1>
+
+        <div class="team-card">
+            <img src="kitty.png" alt="Hello Kitty">
+            <div class="bio">
+                <h3>Hello Kitty</h3>
+                <p>Hello Kitty is a bright and kind-hearted girl. She loves baking cookies and playing the piano. Her dream is to become a pianist or a poet. She is very close with her twin sister, Mimmy.</p>
+            </div>
+        </div>
+
+        <div class="team-card">
+            <img src="melody.png" alt="My Melody">
+            <div class="bio">
+                <h3>My Melody</h3>
+                <p>Born in the forest of Mary Land, My Melody is honest and good-natured. Her favorite hobby is baking cookies with her mother, and her favorite food is almond pound cake.</p>
+            </div>
+        </div>
+
+        <div class="team-card">
+            <img src="Kuromi.png" alt="Kuromi">
+            <div class="bio">
+                <h3>Kuromi</h3>
+                <p>Kuromi is the "punk" of the group! Though she looks tough with her black hood and pink skull, she is actually very girly and enjoys writing in her diary and reading romance novels.</p>
+            </div>
+        </div>
+
+        <div class="team-card">
+            <img src="cinna.png" alt="Cinnamoroll">
+            <div class="bio">
+                <h3>Cinnamoroll</h3>
+                <p>Cinnamoroll is a shy puppy with long ears that help him fly. He is the official mascot of Café Cinnamon. He might be quiet, but he is very friendly and loves napping on customers' laps.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
