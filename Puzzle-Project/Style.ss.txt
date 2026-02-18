@@ -1,0 +1,41 @@
+/* --- 1. THE GRID (The Page Layout) --- */
+
+
+.grid-container {
+    display: grid;
+    /* This creates 3 rows: top and bottom fit the text, middle fills the space */
+    grid-template-rows: auto 1fr auto; 
+    gap: 20px;
+    padding: 20px;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+
+header, main, footer {
+    border: 2px solid #333;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* --- 2. THE FLEXBOX (The Puzzle Pieces) --- */
+
+
+.flex-puzzle-container {
+    display: flex;
+    flex-wrap: wrap;        /* This makes pieces wrap to the next line like a real puzzle */
+    justify-content: center; /* Centers the pieces horizontally */
+    max-width: 800px;       /* Keeps the puzzle from getting too wide */
+    margin: 0 auto;         /* Centers the whole puzzle on the page */
+}
+
+.flex-puzzle-container img {
+    width: 200px;           /* Adjust this number based on your image size */
+    height: auto;           /* Keeps the images from looking squished */
+}
+
+/* --- 3. THE HIDDEN PIECE --- */
+
+.extra-piece {
+    display: none;          /* This piece exists in HTML but disappears in the browser */
+}
